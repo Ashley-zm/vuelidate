@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Test />
+    <FormValidate />
   </div>
 </template>
 
 <script>
-import Test from './components/Test.vue'
+import FormValidate from './components/FormValidate.vue'
 
 export default {
   name: 'App',
   components: {
-    Test,
+    FormValidate,
   },
 }
 </script>
